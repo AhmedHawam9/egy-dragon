@@ -1,0 +1,22 @@
+.navbar {
+  .navbar-brand {
+    img {
+      width: 60px;
+    }
+  }
+  .navbar-collapse {
+    .navbar-nav {
+      .nav-item {
+        margin: 0 1rem;
+        .nav-link {
+          font-family: "semibold";
+          font-size: 1.2rem;
+          &.active {
+            font-family: "bold";
+            color: #213f60;
+          }
+        }
+      }
+    }
+  }
+}

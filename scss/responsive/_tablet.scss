@@ -1,0 +1,28 @@
+@media only screen and (max-width: 991.98px) {
+  .navbar-toggler .navbar-toggler-icon, .navbar-toggler {
+    filter: brightness(0) invert(0);
+  }
+  .home .jean {
+    width: 80%;
+  }
+  .home .logo {
+    width: 70%;
+  }
+  .about_home img {
+    width: 80%;
+  }
+  .about_home {
+    margin-top: 2rem;
+    p {
+      font-size: 0.9rem;
+    }
+  }
+  footer .text {
+    margin-bottom: 3rem;
+  }
+  .contact {
+    .contact_footer, .social_icons, h4 {
+      padding-inline-start: 1rem;
+    }
+  }
+}

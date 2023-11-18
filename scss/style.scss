@@ -1,0 +1,229 @@
+$PrimaryColor: #183041;
+$SecondColor: #942714;
+$PrimaryText: #011c1e;
+$SecondText: #919191;
+
+@font-face {
+  font-family: "light";
+  src: url("../fonts/Cairo-Light.ttf");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("../fonts/Cairo-Regular.ttf");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("../fonts/Cairo-Medium.ttf");
+}
+
+@font-face {
+  font-family: "semibold";
+  src: url("../fonts/Cairo-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/Cairo-Bold.ttf");
+}
+
+@media only screen and (max-width: 1600px) {
+  html {
+    font-size: 14px;
+  }
+}
+body {
+  &:lang(en) {
+    direction: ltr;
+  }
+}
+body {
+  &:lang(ar) {
+    direction: rtl;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #fff !important;
+  font-family: "regular";
+}
+
+.jeans {
+  outline: 1px dashed #213f60;
+  min-height: 99vh;
+  margin: .3rem 0;
+}
+
+.home {
+  margin: 2rem 0;
+  .row {
+    align-items: center;
+  }
+  .logo {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .jean {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 50px 0 50px 0
+  }
+}
+
+.about_home {
+  .row {
+    align-items: center
+  }
+  img {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 50px 0 50px 0
+  }
+  h1 {
+    font-family: "medium";
+    color: #213f60;
+  }
+  p {
+    font-family: "regular";
+    color: #000;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+  .btn {
+    background-color: #213f60;
+    color: #fff;
+    border: 1px solid #213f60;
+    border-radius: 10px;
+    font-family: "semibold";
+    font-size: 1rem;
+    padding: 0.75rem 3rem;
+    transition: .7s ease-in-out;
+    &:hover {
+      background-color: transparent;
+      color: #213f60;
+      border: 1px solid #213f60;
+      transition: .7s ease-in-out
+    }
+  }
+}
+
+.about {
+  margin: 2rem 0;
+  position: relative;
+  .row {
+    align-items: center
+  }
+  .title {
+    text-align: center;
+    font-family: "bold";
+    margin-bottom: 3rem;
+  }
+  .swiper {
+    position: unset;
+    img {
+      display: block;
+      width: 350px;
+      margin: 0 auto;
+      // border-radius: 50px 0 50px 0
+    }
+  }
+  h1 {
+    font-family: "medium";
+    color: #213f60;
+  }
+  p {
+    font-family: "regular";
+    color: #000;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+.contact {
+  margin: 2rem 0;
+  .row {
+    align-items: center;
+  }
+  .form-group {
+    margin-bottom: 1rem;
+    label {
+      font-family: "semibold";
+      color: #213f60;
+      margin-bottom: .5rem
+    }
+    input {
+      font-size: 0.8rem;
+      font-family: "regular";
+      padding: 0.55rem;
+      color: #213f60;
+      &::placeholder {
+        color: #919191
+      }
+    }
+  }
+  .btn {
+    background-color: #213f60;
+    color: #fff;
+    border: 1px solid #213f60;
+    border-radius: 5px;
+    font-family: "semibold";
+    font-size: 1rem;
+    padding: 0.75rem 3rem;
+    transition: .7s ease-in-out;
+    &:hover {
+      background-color: transparent;
+      color: #213f60;
+      border: 1px solid #213f60;
+      transition: .7s ease-in-out
+    }
+  }
+  h4 {
+    font-family: "bold";
+    padding-inline-start: 3rem;
+    margin-bottom: 2rem;
+  }
+  .contact_footer {
+    list-style: none;
+    padding-inline-start: 3rem;
+    li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        width: fit-content;
+        svg {
+          color: #000;
+          font-size: 1.2rem;
+          margin-inline-end: 0.5rem;
+        }
+        a, span {
+          font-family: "semibold";
+          color: #000;
+          font-size: 1.2rem;
+          text-decoration: none;
+        }
+    }
+  }
+  .social_icons {
+    list-style: none;
+    padding-inline-start: 3rem;
+    margin: 0 auto;
+    display: flex;
+    li {
+        margin-inline-end: 1.5rem;
+        a {
+            color: #000;
+            font-size: 1.5rem;
+        }
+    }
+  }
+}
+
+@import "./_layout.scss";
+@import "./_responsive.scss";

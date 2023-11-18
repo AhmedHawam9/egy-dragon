@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    .home .logo {
+        width: 60%;
+        margin-bottom: 2rem;
+    }
+    .home .jean {
+        width: 70%;
+    }
+    .about_home .row {
+        flex-direction: column-reverse;
+    }
+    .about_home h1, .about_home p {
+        width: 90%;
+        margin: 0 auto 1rem;
+    }
+    .about_home .btn {
+        margin-inline-start: 5%;
+        margin-bottom: 2rem;
+    }
+    .about_home img {
+        width: 70%;
+    }
+    .about h1 {
+        margin-top: 2rem;
+    }
+    .contact {
+        form {
+            margin-bottom: 2rem;
+        }
+        .contact_footer, .social_icons, h4 {
+            padding-inline-start: 0;
+        }
+    }
+}

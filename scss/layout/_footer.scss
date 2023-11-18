@@ -1,0 +1,72 @@
+footer {
+    background-color: #213f60;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+    .logo {
+        width: 150px;
+        filter: brightness(0) invert(1);
+        transition: .7s ease-in-out;
+        &:hover {
+            transform: scale(1.05);
+            transition: .7s ease-in-out;
+        }
+    }
+    .text {
+        font-family: "regular";
+        color: #fff;
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        width: 90%;
+    }
+    h4 {
+        font-family: "bold";
+        color: #fff;
+        margin-bottom: 2rem;
+    }
+    .links {
+        list-style: none;
+        padding-inline-start: 1rem;
+        li {
+            display: block;
+            margin-bottom: 1.5rem;
+            width: fit-content;
+            a {
+                font-family: "semibold";
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+    .contact_footer {
+        list-style: none;
+        padding-inline-start: 1rem;
+        li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            width: fit-content;
+            svg {
+                color: #fff;
+                margin-inline-end: 0.5rem;
+            }
+            a, span {
+                font-family: "semibold";
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+    .social_icons {
+        list-style: none;
+        padding-inline-start: 1rem;
+        margin: 0 auto;
+        display: flex;
+        li {
+            margin-inline-end: 1.5rem;
+            a {
+                color: #fff;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
