@@ -8,3 +8,5 @@ for (let i = 0; i < menuLength; i++) {
   }
 }
 //=========== Active navbar Link in multi pages =============
+
+AOS.init();
